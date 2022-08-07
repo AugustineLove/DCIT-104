@@ -1,3 +1,5 @@
+//  I, 10958661 pledge that I wrote this codes by myself
+//  A java code to print prime numbers below any given input
 import java.util.Scanner;
     
 class Main{
