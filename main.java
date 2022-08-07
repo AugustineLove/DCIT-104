@@ -12,13 +12,13 @@ class Main{
         System.out.println("*******************************************");
         System.out.println("Prime numbers below "+number+" are");
         for(int x=2; x<number;x++){
-            int flag=0;
+            int follow=0;
             for(int i=2; i<=x/2; i++){
                 if(x%i==0){
-                    flag=1; break;
+                    follow=1; break;
                 }
             }
-            if(flag==0){
+            if(follow==0){
                 System.out.println(x);
                 sum=sum+x;
                 count+=1;
